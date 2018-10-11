@@ -1,8 +1,8 @@
-[공통] 마크다운 markdown 작성법
+[AWS Certification Guide] 8주만에 AWS Certifcated Solution Architect - Associate 취득하기
 ======================
 
-# 1. 마크다운에 관하여
-## 1.1. 마크다운이란?
+# 1. AWS 기본
+## 1.1. AWS란?
 [**Markdown**](http://whatismarkdown.com/)은 텍스트 기반의 마크업언어로 2004년 존그루버에 의해 만들어졌으며 쉽게 쓰고 읽을 수 있으며 HTML로 변환이 가능하다. 특수기호와 문자를 이용한 매우 간단한 구조의 문법을 사용하여 웹에서도 보다 빠르게 컨텐츠를 작성하고 보다 직관적으로 인식할 수 있다.
 마크다운이 최근 각광받기 시작한 이유는 깃헙([https://github.com](https://github.com)) 덕분이다. 깃헙의 저장소Repository에 관한 정보를 기록하는 README.md는 깃헙을 사용하는 사람이라면 누구나 가장 먼저 접하게 되는 마크다운 문서였다. 마크다운을 통해서 설치방법, 소스코드 설명, 이슈 등을 간단하게 기록하고 가독성을 높일 수 있다는 강점이 부각되면서 점점 여러 곳으로 퍼져가게 된다.
 
@@ -20,7 +20,34 @@
 	3. 모든 HTML 마크업을 대신하지 못한다.
 
 ****
-# 2. 마크다운 사용법(문법)
+
+
+# 3. 1주차 
+## 3.1. 용어의 이해
+### 3.1.1 AWS란?
+    1. 클라우드란?
+        인프라스트럭처 서비스(IaaS)
+        플랫폼 서비스(PasS)
+        애플리케이션 서비스(SaaS)
+    2. 프라이빗 클라우드와 AWS
+    3. AWS 서비스 구성
+
+ ### 3.1.2 네트워크 서비스
+    1. 리전과 가용 영역
+    2. Amazon Vitual Private Cloud(VPC)
+    3. Amazon Route 53
+
+### 3.1.3 하드웨어 리소스
+    1. Amazon Elastic Compute Cloud
+    2. Amazon Elastic Block Store(EBS)
+    3. EC2
+    4. Amazon Simple Storage Service(S3)
+    
+
+
+
+
+# 2. 출제 범위(AWS Certifcated Solution Architect - Associate)
 ## 2.1. 헤더Headers
 * 큰제목: 문서 제목
     ```
@@ -239,3 +266,4 @@ __double underscores__
 ![석촌호수 러버덕](http://cfile6.uf.tistory.com/image/2426E646543C9B4532C7B0 "RubberDuck")
 
 사이즈 조절 기능은 없기 때문에 ```<img width="" height=""></img>```를 이용한다.
+
